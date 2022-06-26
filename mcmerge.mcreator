@@ -14,7 +14,8 @@
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "emptyseed"
+      "registry_name": "emptyseed",
+      "path": "~/Items"
     },
     {
       "name": "GrassBreak",
@@ -46,7 +47,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Procedures"
     },
     {
       "name": "Seedgrass",
@@ -54,7 +56,8 @@
       "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "seedgrass"
+      "registry_name": "seedgrass",
+      "path": "~/Blocks"
     },
     {
       "name": "CarrotseedsRightclickedOnBlock",
@@ -86,7 +89,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Procedures"
     },
     {
       "name": "Carrotseeds",
@@ -94,7 +98,8 @@
       "sortid": 7,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "carrotseeds"
+      "registry_name": "carrotseeds",
+      "path": "~/Items"
     },
     {
       "name": "Lettuceseeds",
@@ -102,7 +107,8 @@
       "sortid": 8,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "lettuceseeds"
+      "registry_name": "lettuceseeds",
+      "path": "~/Items"
     },
     {
       "name": "Cucumberseeds",
@@ -110,7 +116,8 @@
       "sortid": 9,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cucumberseeds"
+      "registry_name": "cucumberseeds",
+      "path": "~/Items"
     },
     {
       "name": "Cornseed",
@@ -118,7 +125,8 @@
       "sortid": 10,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cornseeds"
+      "registry_name": "cornseeds",
+      "path": "~/Items"
     },
     {
       "name": "Cauliflowerseeds",
@@ -126,7 +134,8 @@
       "sortid": 11,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cauliflowerseeds"
+      "registry_name": "cauliflowerseeds",
+      "path": "~/Items"
     },
     {
       "name": "Avacodoseeds",
@@ -134,7 +143,8 @@
       "sortid": 12,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "avacodoseeds"
+      "registry_name": "avacodoseeds",
+      "path": "~/Items"
     },
     {
       "name": "Oliveseeds",
@@ -142,7 +152,8 @@
       "sortid": 13,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "oliveseeds"
+      "registry_name": "oliveseeds",
+      "path": "~/Items"
     },
     {
       "name": "Pepperseeds",
@@ -150,7 +161,8 @@
       "sortid": 14,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pepperseeds"
+      "registry_name": "pepperseeds",
+      "path": "~/Items"
     },
     {
       "name": "Potatospuds",
@@ -158,7 +170,8 @@
       "sortid": 15,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "potatospuds"
+      "registry_name": "potatospuds",
+      "path": "~/Items"
     },
     {
       "name": "Cucumber",
@@ -166,7 +179,8 @@
       "sortid": 16,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cucumber"
+      "registry_name": "cucumber",
+      "path": "~/Items"
     },
     {
       "name": "Cauliflower",
@@ -174,7 +188,8 @@
       "sortid": 17,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cauliflower"
+      "registry_name": "cauliflower",
+      "path": "~/Items"
     },
     {
       "name": "Mergegrassplant",
@@ -182,7 +197,8 @@
       "sortid": 18,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "mergegrassplant"
+      "registry_name": "mergegrassplant",
+      "path": "~/Blocks"
     },
     {
       "name": "Mergegrassdrops",
@@ -190,7 +206,8 @@
       "sortid": 19,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "mergegrassdrops"
+      "registry_name": "mergegrassdrops",
+      "path": "~/Loot_Tables"
     },
     {
       "name": "Corn",
@@ -198,7 +215,8 @@
       "sortid": 20,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "corn"
+      "registry_name": "corn",
+      "path": "~/Items"
     },
     {
       "name": "Lettuce",
@@ -206,7 +224,8 @@
       "sortid": 21,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "lettuce"
+      "registry_name": "lettuce",
+      "path": "~/Items"
     },
     {
       "name": "Pepper",
@@ -214,7 +233,8 @@
       "sortid": 22,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pepper"
+      "registry_name": "pepper",
+      "path": "~/Items"
     },
     {
       "name": "Olive",
@@ -222,7 +242,8 @@
       "sortid": 23,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "olive"
+      "registry_name": "olive",
+      "path": "~/Items"
     },
     {
       "name": "Grape",
@@ -230,7 +251,8 @@
       "sortid": 24,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "grape"
+      "registry_name": "grape",
+      "path": "~/Items"
     },
     {
       "name": "Grapeseed",
@@ -238,7 +260,8 @@
       "sortid": 25,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "grapeseed"
+      "registry_name": "grapeseed",
+      "path": "~/Items"
     },
     {
       "name": "Sugarcaneseed",
@@ -246,7 +269,8 @@
       "sortid": 26,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "sugarcaneseed"
+      "registry_name": "sugarcaneseed",
+      "path": "~/Items"
     },
     {
       "name": "Wheatseed",
@@ -254,7 +278,8 @@
       "sortid": 27,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "wheatseed"
+      "registry_name": "wheatseed",
+      "path": "~/Recipes"
     },
     {
       "name": "Carrotseed",
@@ -262,7 +287,8 @@
       "sortid": 28,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "carrotseed"
+      "registry_name": "carrotseed",
+      "path": "~/Recipes"
     },
     {
       "name": "Beetrootseed",
@@ -270,7 +296,8 @@
       "sortid": 29,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "beetrootseed"
+      "registry_name": "beetrootseed",
+      "path": "~/Recipes"
     },
     {
       "name": "Potatoseed",
@@ -278,7 +305,8 @@
       "sortid": 30,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "potatoseed"
+      "registry_name": "potatoseed",
+      "path": "~/Recipes"
     },
     {
       "name": "Pumpkinseed",
@@ -286,7 +314,8 @@
       "sortid": 31,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pumpkinseed"
+      "registry_name": "pumpkinseed",
+      "path": "~/Recipes"
     },
     {
       "name": "Lettuceseed",
@@ -294,7 +323,8 @@
       "sortid": 32,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "lettuceseed"
+      "registry_name": "lettuceseed",
+      "path": "~/Recipes"
     },
     {
       "name": "Cucumberseed",
@@ -302,7 +332,8 @@
       "sortid": 33,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cucumberseed"
+      "registry_name": "cucumberseed",
+      "path": "~/Recipes"
     },
     {
       "name": "Cornseeds",
@@ -310,7 +341,8 @@
       "sortid": 34,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cornseeds"
+      "registry_name": "cornseeds",
+      "path": "~/Recipes"
     },
     {
       "name": "Cauliflowerseed",
@@ -318,7 +350,8 @@
       "sortid": 35,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cauliflowerseed"
+      "registry_name": "cauliflowerseed",
+      "path": "~/Recipes"
     },
     {
       "name": "Avacodoseed",
@@ -326,7 +359,8 @@
       "sortid": 36,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "avacodoseed"
+      "registry_name": "avacodoseed",
+      "path": "~/Recipes"
     },
     {
       "name": "Pepperseed",
@@ -334,7 +368,8 @@
       "sortid": 37,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pepperseed"
+      "registry_name": "pepperseed",
+      "path": "~/Recipes"
     },
     {
       "name": "Oliveseed",
@@ -342,7 +377,8 @@
       "sortid": 38,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "oliveseed"
+      "registry_name": "oliveseed",
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [],
@@ -376,7 +412,28 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Items",
+        "children": []
+      },
+      {
+        "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "Recipes",
+        "children": []
+      },
+      {
+        "name": "Procedures",
+        "children": []
+      },
+      {
+        "name": "Loot_Tables",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "mcmerge",
