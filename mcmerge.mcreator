@@ -71,6 +71,110 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "grassdrops"
+    },
+    {
+      "name": "CarrotseedsRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carrotseeds_rightclicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Carrotseeds",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carrotseeds"
+    },
+    {
+      "name": "Lettuceseeds",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lettuceseeds"
+    },
+    {
+      "name": "Cucumberseeds",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cucumberseeds"
+    },
+    {
+      "name": "Cornseed",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cornseed"
+    },
+    {
+      "name": "Cauliflowerseeds",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cauliflowerseeds"
+    },
+    {
+      "name": "Avacodoseeds",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "avacodoseeds"
+    },
+    {
+      "name": "Oliveseeds",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oliveseeds"
+    },
+    {
+      "name": "Pepperseeds",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pepperseeds"
+    },
+    {
+      "name": "Potatospuds",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potatospuds"
     }
   ],
   "variable_elements": [],
@@ -80,7 +184,16 @@
       "item.mcmerge.emptyseed": "Emptyseed",
       "item.mcmerge.seedgrass": "Seedgrass",
       "itemGroup.tabmcmerge": "Mcmerge",
-      "block.mcmerge.merge_grass_plant": "Merge Grass Block"
+      "item.mcmerge.potatospuds": "Potatospuds",
+      "item.mcmerge.oliveseeds": "Oliveseeds",
+      "item.mcmerge.pepperseeds": "Pepperseeds",
+      "item.mcmerge.lettuceseeds": "Lettuceseeds",
+      "block.mcmerge.merge_grass_plant": "Merge Grass Block",
+      "item.mcmerge.cauliflowerseeds": "Cauliflowerseeds",
+      "item.mcmerge.cucumberseeds": "Cucumberseeds",
+      "item.mcmerge.avacodoseeds": "Avacodoseeds",
+      "item.mcmerge.cornseed": "Cornseed",
+      "item.mcmerge.carrotseeds": "Carrotseeds"
     }
   },
   "foldersRoot": {
