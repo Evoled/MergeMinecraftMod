@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mcmerge:potatospuds"
+    },
+    {
+      "item": "mcmerge:potatospuds"
+    }
+  ],
+  "result": {
+    "item": "minecraft:pumpkin_seeds",
+    "count": 1
+  }
+}

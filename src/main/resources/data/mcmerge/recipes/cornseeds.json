@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mcmerge:lettuceseeds"
+    },
+    {
+      "item": "mcmerge:lettuceseeds"
+    }
+  ],
+  "result": {
+    "item": "mcmerge:cornseeds",
+    "count": 1
+  }
+}

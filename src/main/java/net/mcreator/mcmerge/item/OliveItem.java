@@ -8,8 +8,8 @@ import net.minecraft.world.item.Item;
 
 import net.mcreator.mcmerge.init.McmergeModTabs;
 
-public class CornseedsItem extends Item {
-	public CornseedsItem()Item() {
+public class OliveItem extends Item {
+	public OliveItem() {
 		super(new Item.Properties().tab(McmergeModTabs.TAB_MCMERGE).stacksTo(64).rarity(Rarity.COMMON));
 	}
 
