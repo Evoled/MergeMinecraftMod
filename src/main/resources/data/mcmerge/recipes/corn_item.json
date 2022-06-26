@@ -2,10 +2,10 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "mcmerge:lettuce"
+      "item": "mcmerge:cucumber"
     },
     {
-      "item": "mcmerge:lettuce"
+      "item": "mcmerge:cucumber"
     }
   ],
   "result": {

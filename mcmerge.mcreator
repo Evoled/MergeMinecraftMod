@@ -15,7 +15,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "emptyseed",
-      "path": "~/Items"
+      "path": "~/Items/seeds"
     },
     {
       "name": "GrassBreak",
@@ -99,7 +99,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "carrotseeds",
-      "path": "~/Items"
+      "path": "~/Items/seeds"
     },
     {
       "name": "Lettuceseeds",
@@ -108,7 +108,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "lettuceseeds",
-      "path": "~/Items"
+      "path": "~/Items/seeds"
     },
     {
       "name": "Cucumberseeds",
@@ -117,7 +117,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "cucumberseeds",
-      "path": "~/Items"
+      "path": "~/Items/seeds"
     },
     {
       "name": "Cornseed",
@@ -126,7 +126,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "cornseeds",
-      "path": "~/Items"
+      "path": "~/Items/seeds"
     },
     {
       "name": "Cauliflowerseeds",
@@ -135,7 +135,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "cauliflowerseeds",
-      "path": "~/Items"
+      "path": "~/Items/seeds"
     },
     {
       "name": "Avacodoseeds",
@@ -144,7 +144,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "avacodoseeds",
-      "path": "~/Items"
+      "path": "~/Items/seeds"
     },
     {
       "name": "Oliveseeds",
@@ -153,7 +153,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "oliveseeds",
-      "path": "~/Items"
+      "path": "~/Items/seeds"
     },
     {
       "name": "Pepperseeds",
@@ -162,7 +162,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "pepperseeds",
-      "path": "~/Items"
+      "path": "~/Items/seeds"
     },
     {
       "name": "Potatospuds",
@@ -171,7 +171,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "potatospuds",
-      "path": "~/Items"
+      "path": "~/Items/seeds"
     },
     {
       "name": "Cucumber",
@@ -261,7 +261,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "grapeseed",
-      "path": "~/Items"
+      "path": "~/Items/seeds"
     },
     {
       "name": "Sugarcaneseed",
@@ -270,7 +270,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "sugarcaneseed",
-      "path": "~/Items"
+      "path": "~/Items/seeds"
     },
     {
       "name": "Wheatseed",
@@ -478,6 +478,51 @@
       "locked_code": false,
       "registry_name": "carrot_item",
       "path": "~/Recipes"
+    },
+    {
+      "name": "Avacado",
+      "type": "item",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "avacado",
+      "path": "~/Items"
+    },
+    {
+      "name": "Strawberry",
+      "type": "item",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strawberry",
+      "path": "~/Items"
+    },
+    {
+      "name": "Cherry",
+      "type": "item",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry",
+      "path": "~/Items"
+    },
+    {
+      "name": "Cherryseeds",
+      "type": "item",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherryseeds",
+      "path": "~/Items/seeds"
+    },
+    {
+      "name": "Strawberryseeds",
+      "type": "item",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strawberryseeds",
+      "path": "~/Items/seeds"
     }
   ],
   "variable_elements": [],
@@ -485,28 +530,33 @@
   "language_map": {
     "en_us": {
       "item.mcmerge.emptyseed": "Emptyseed",
+      "item.mcmerge.cherryseeds": "Cherryseeds",
+      "item.mcmerge.strawberry": "Strawberry",
+      "item.mcmerge.pepperseeds": "Pepperseeds",
+      "item.mcmerge.corn": "Corn",
+      "item.mcmerge.grapeseed": "Grapeseed",
+      "item.mcmerge.strawberryseeds": "Strawberryseeds",
+      "item.mcmerge.lettuceseeds": "Lettuceseeds",
+      "item.mcmerge.cornseeds": "Cornseed",
+      "item.mcmerge.sugarcaneseed": "Sugarcane Seed",
+      "item.mcmerge.olive": "Olive",
+      "item.mcmerge.grape": "Grape",
+      "item.mcmerge.carrotseeds": "Carrotseeds",
       "block.mcmerge.mergegrassplant": "Merge Grass",
       "item.mcmerge.seedgrass": "Seedgrass",
       "itemGroup.tabmcmerge": "Mcmerge",
       "item.mcmerge.potatospuds": "Potatospuds",
       "item.mcmerge.cucumber": "Cucumber",
       "item.mcmerge.oliveseeds": "Oliveseeds",
-      "item.mcmerge.pepperseeds": "Pepperseeds",
-      "item.mcmerge.corn": "Corn",
-      "item.mcmerge.grapeseed": "Grapeseed",
+      "item.mcmerge.cherry": "Cherry",
       "item.mcmerge.cauliflower": "Cauliflower",
-      "item.mcmerge.lettuceseeds": "Lettuceseeds",
-      "item.mcmerge.cornseeds": "Cornseed",
-      "item.mcmerge.sugarcaneseed": "Sugarcane Seed",
       "item.mcmerge.cauliflowerseeds": "Cauliflowerseeds",
-      "item.mcmerge.olive": "Olive",
       "item.mcmerge.cucumberseeds": "Cucumberseeds",
       "item.mcmerge.avacodoseeds": "Avacodoseeds",
-      "item.mcmerge.grape": "Grape",
+      "item.mcmerge.avacado": "Avacado",
       "item.mcmerge.lettuce": "Lettuce",
       "item.mcmerge.cornseed": "Cornseed",
-      "item.mcmerge.pepper": "Pepper",
-      "item.mcmerge.carrotseeds": "Carrotseeds"
+      "item.mcmerge.pepper": "Pepper"
     }
   },
   "foldersRoot": {
@@ -514,7 +564,12 @@
     "children": [
       {
         "name": "Items",
-        "children": []
+        "children": [
+          {
+            "name": "seeds",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Blocks",

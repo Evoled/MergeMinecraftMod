@@ -10,10 +10,10 @@
     "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": "Items.ENDER_PEARL"
+        "value": "CUSTOM:Avacado"
       },
       {
-        "value": "Items.ENDER_PEARL"
+        "value": "CUSTOM:Avacado"
       },
       {
         "value": ""

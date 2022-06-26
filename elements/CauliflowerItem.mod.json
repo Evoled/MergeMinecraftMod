@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Cauliflowerseeds"
+      "value": "CUSTOM:Cauliflower"
     },
     "name": "cauliflower_item",
     "namespace": "mod"
