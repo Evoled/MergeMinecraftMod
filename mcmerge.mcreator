@@ -379,6 +379,105 @@
       "locked_code": false,
       "registry_name": "oliveseed",
       "path": "~/Recipes"
+    },
+    {
+      "name": "BeetrootItem",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beetroot_item",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "PotatoItem",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potato_item",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "PumpkinItem",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pumpkin_item",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "LettuceItem",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lettuce_item",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CucumberItem",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cucumber_item",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CornItem",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corn_item",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CauliflowerItem",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cauliflower_item",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "AvacodoItem",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "avacodo_item",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "PepperItem",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pepper_item",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "OliveItem",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olive_item",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CarrotItem",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carrot_item",
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [],
