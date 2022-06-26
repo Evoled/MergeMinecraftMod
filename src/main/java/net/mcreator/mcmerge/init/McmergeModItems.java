@@ -8,10 +8,7 @@ import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
 
-import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.DoubleHighBlockItem;
-import net.minecraft.world.item.CreativeModeTab;
 
 import net.mcreator.mcmerge.item.SeedgrassItem;
 import net.mcreator.mcmerge.item.PotatospudsItem;
@@ -43,10 +40,4 @@ public class McmergeModItems {
 	public static final RegistryObject<Item> POTATOSPUDS = REGISTRY.register("potatospuds", () -> new PotatospudsItem());
 	public static final RegistryObject<Item> CUCUMBER = REGISTRY.register("cucumber", () -> new CucumberItem());
 	public static final RegistryObject<Item> CAULIFLOWER = REGISTRY.register("cauliflower", () -> new CauliflowerItem());
-	public static final RegistryObject<Item> MERGEGRASS = REGISTRY.register("mergegrass", () -> new MergegrassItem());
-	public static final RegistryObject<Item> MERGE_GRASS = doubleBlock(McmergeModBlocks.MERGE_GRASS, McmergeModTabs.TAB_MCMERGE);
-
-	private static RegistryObject<Item> doubleBlock(RegistryObject<Block> block, CreativeModeTab tab) {
-		return REGISTRY.register(block.getId().getPath(), () -> new DoubleHighBlockItem(block.get(), new Item.Properties().tab(tab)));
-	}
 }

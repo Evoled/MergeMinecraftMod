@@ -1,7 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "mcmerge:blocks/mergegrass",
-    "particle": "mcmerge:blocks/mergegrass"
-  }
-}
