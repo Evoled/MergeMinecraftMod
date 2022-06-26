@@ -191,6 +191,38 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "mergegrassdrops"
+    },
+    {
+      "name": "Corn",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corn"
+    },
+    {
+      "name": "Lettuce",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lettuce"
+    },
+    {
+      "name": "Pepper",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pepper"
+    },
+    {
+      "name": "Olive",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olive"
     }
   ],
   "variable_elements": [],
@@ -205,12 +237,16 @@
       "item.mcmerge.cucumber": "Cucumber",
       "item.mcmerge.oliveseeds": "Oliveseeds",
       "item.mcmerge.pepperseeds": "Pepperseeds",
+      "item.mcmerge.corn": "Corn",
       "item.mcmerge.cauliflower": "Cauliflower",
       "item.mcmerge.lettuceseeds": "Lettuceseeds",
       "item.mcmerge.cauliflowerseeds": "Cauliflowerseeds",
+      "item.mcmerge.olive": "Olive",
       "item.mcmerge.cucumberseeds": "Cucumberseeds",
       "item.mcmerge.avacodoseeds": "Avacodoseeds",
+      "item.mcmerge.lettuce": "Lettuce",
       "item.mcmerge.cornseed": "Cornseed",
+      "item.mcmerge.pepper": "Pepper",
       "item.mcmerge.carrotseeds": "Carrotseeds"
     }
   },
