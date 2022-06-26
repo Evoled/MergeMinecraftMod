@@ -523,6 +523,24 @@
       "locked_code": false,
       "registry_name": "strawberryseeds",
       "path": "~/Items/seeds"
+    },
+    {
+      "name": "Wrench",
+      "type": "item",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wrench",
+      "path": "~/Items"
+    },
+    {
+      "name": "Wrenchitem",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wrenchitem",
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [],
@@ -531,6 +549,7 @@
     "en_us": {
       "item.mcmerge.emptyseed": "Emptyseed",
       "item.mcmerge.cherryseeds": "Cherryseeds",
+      "item.mcmerge.wrench": "Wrench",
       "item.mcmerge.strawberry": "Strawberry",
       "item.mcmerge.pepperseeds": "Pepperseeds",
       "item.mcmerge.corn": "Corn",

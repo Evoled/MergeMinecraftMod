@@ -13,6 +13,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.mcmerge.item.WrenchItem;
 import net.mcreator.mcmerge.item.SugarcaneseedItem;
 import net.mcreator.mcmerge.item.StrawberryseedsItem;
 import net.mcreator.mcmerge.item.StrawberryItem;
@@ -68,6 +69,7 @@ public class McmergeModItems {
 	public static final RegistryObject<Item> CHERRY = REGISTRY.register("cherry", () -> new CherryItem());
 	public static final RegistryObject<Item> CHERRYSEEDS = REGISTRY.register("cherryseeds", () -> new CherryseedsItem());
 	public static final RegistryObject<Item> STRAWBERRYSEEDS = REGISTRY.register("strawberryseeds", () -> new StrawberryseedsItem());
+	public static final RegistryObject<Item> WRENCH = REGISTRY.register("wrench", () -> new WrenchItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
