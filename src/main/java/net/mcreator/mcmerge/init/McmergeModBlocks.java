@@ -14,18 +14,18 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
-import net.mcreator.mcmerge.block.MergeGrassBlockBlock;
+import net.mcreator.mcmerge.block.MergeGrassBlock;
 import net.mcreator.mcmerge.McmergeMod;
 
 public class McmergeModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, McmergeMod.MODID);
-	public static final RegistryObject<Block> MERGE_GRASS_PLANT = REGISTRY.register("merge_grass_plant", () -> new MergeGrassBlockBlock());
+	public static final RegistryObject<Block> MERGE_GRASS = REGISTRY.register("merge_grass", () -> new MergeGrassBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
 		@SubscribeEvent
 		public static void clientSetup(FMLClientSetupEvent event) {
-			MergeGrassBlockBlock.registerRenderLayer();
+			MergeGrassBlock.registerRenderLayer();
 		}
 	}
 }

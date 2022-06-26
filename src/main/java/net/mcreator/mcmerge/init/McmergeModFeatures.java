@@ -17,7 +17,7 @@ import net.minecraft.world.level.levelgen.GenerationStep;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.Holder;
 
-import net.mcreator.mcmerge.world.features.ores.MergeGrassBlockFeature;
+import net.mcreator.mcmerge.world.features.plants.MergeGrassFeature;
 import net.mcreator.mcmerge.McmergeMod;
 
 import java.util.function.Supplier;
@@ -29,9 +29,8 @@ import java.util.ArrayList;
 public class McmergeModFeatures {
 	public static final DeferredRegister<Feature<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.FEATURES, McmergeMod.MODID);
 	private static final List<FeatureRegistration> FEATURE_REGISTRATIONS = new ArrayList<>();
-	public static final RegistryObject<Feature<?>> MERGE_GRASS_PLANT = register("merge_grass_plant", MergeGrassBlockFeature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, MergeGrassBlockFeature.GENERATE_BIOMES,
-					MergeGrassBlockFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> MERGE_GRASS = register("merge_grass", MergeGrassFeature::feature, new FeatureRegistration(
+			GenerationStep.Decoration.VEGETAL_DECORATION, MergeGrassFeature.GENERATE_BIOMES, MergeGrassFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

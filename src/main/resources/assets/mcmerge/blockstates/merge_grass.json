@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "mcmerge:block/merge_grass"
+    },
+    "half=lower": {
+      "model": "mcmerge:block/merge_grass_bottom"
+    }
+  }
+}

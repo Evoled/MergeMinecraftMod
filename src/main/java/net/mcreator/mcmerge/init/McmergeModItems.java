@@ -10,8 +10,8 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.mcmerge.item.SeedgrassItem;
 import net.mcreator.mcmerge.item.PotatospudsItem;
@@ -32,7 +32,6 @@ public class McmergeModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, McmergeMod.MODID);
 	public static final RegistryObject<Item> EMPTYSEED = REGISTRY.register("emptyseed", () -> new EmptyseedItem());
 	public static final RegistryObject<Item> SEEDGRASS = REGISTRY.register("seedgrass", () -> new SeedgrassItem());
-	public static final RegistryObject<Item> MERGE_GRASS_PLANT = block(McmergeModBlocks.MERGE_GRASS_PLANT, McmergeModTabs.TAB_MCMERGE);
 	public static final RegistryObject<Item> CARROTSEEDS = REGISTRY.register("carrotseeds", () -> new CarrotseedsItem());
 	public static final RegistryObject<Item> LETTUCESEEDS = REGISTRY.register("lettuceseeds", () -> new LettuceseedsItem());
 	public static final RegistryObject<Item> CUCUMBERSEEDS = REGISTRY.register("cucumberseeds", () -> new CucumberseedsItem());
@@ -44,8 +43,9 @@ public class McmergeModItems {
 	public static final RegistryObject<Item> POTATOSPUDS = REGISTRY.register("potatospuds", () -> new PotatospudsItem());
 	public static final RegistryObject<Item> CUCUMBER = REGISTRY.register("cucumber", () -> new CucumberItem());
 	public static final RegistryObject<Item> CAULIFLOWER = REGISTRY.register("cauliflower", () -> new CauliflowerItem());
+	public static final RegistryObject<Item> MERGE_GRASS = doubleBlock(McmergeModBlocks.MERGE_GRASS, McmergeModTabs.TAB_MCMERGE);
 
-	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
-		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
+	private static RegistryObject<Item> doubleBlock(RegistryObject<Block> block, CreativeModeTab tab) {
+		return REGISTRY.register(block.getId().getPath(), () -> new DoubleHighBlockItem(block.get(), new Item.Properties().tab(tab)));
 	}
 }
