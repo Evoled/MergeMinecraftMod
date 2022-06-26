@@ -1,6 +1,7 @@
 
 package net.mcreator.mcmerge.world.features.plants;
 
+import net.minecraft.world.level.levelgen.placement.RarityFilter;
 import net.minecraft.world.level.levelgen.placement.PlacedFeature;
 import net.minecraft.world.level.levelgen.placement.InSquarePlacement;
 import net.minecraft.world.level.levelgen.placement.CountPlacement;
@@ -33,9 +34,9 @@ public class MergeGrassFeature extends RandomPatchFeature {
 	public static Feature<?> feature() {
 		FEATURE = new MergeGrassFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("mcmerge:merge_grass", FEATURE, FeatureUtils.simplePatchConfiguration(Feature.SIMPLE_BLOCK,
-				new SimpleBlockConfiguration(BlockStateProvider.simple(McmergeModBlocks.MERGE_GRASS.get().defaultBlockState())), List.of(), 64));
-		PLACED_FEATURE = PlacementUtils.register("mcmerge:merge_grass", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(5), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP_WORLD_SURFACE, BiomeFilter.biome()));
+				new SimpleBlockConfiguration(BlockStateProvider.simple(McmergeModBlocks.MERGE_GRASS.get().defaultBlockState())), List.of(), 3));
+		PLACED_FEATURE = PlacementUtils.register("mcmerge:merge_grass", CONFIGURED_FEATURE, List.of(CountPlacement.of(2),
+				RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
 		return FEATURE;
 	}
 

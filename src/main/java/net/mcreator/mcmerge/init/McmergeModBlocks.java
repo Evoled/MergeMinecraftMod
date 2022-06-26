@@ -19,6 +19,7 @@ import net.mcreator.mcmerge.McmergeMod;
 
 public class McmergeModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, McmergeMod.MODID);
+	public static final RegistryObject<Block> MERGEGRASS = REGISTRY.register("mergegrass", () -> new MergegrassBlock());
 	public static final RegistryObject<Block> MERGE_GRASS = REGISTRY.register("merge_grass", () -> new MergeGrassBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
