@@ -175,6 +175,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "cauliflower"
+    },
+    {
+      "name": "Mergegrassplant",
+      "type": "plant",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mergegrassplant"
+    },
+    {
+      "name": "Mergegrassdrops",
+      "type": "loottable",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mergegrassdrops"
     }
   ],
   "variable_elements": [],
@@ -182,6 +198,7 @@
   "language_map": {
     "en_us": {
       "item.mcmerge.emptyseed": "Emptyseed",
+      "block.mcmerge.mergegrassplant": "Merge Grass",
       "item.mcmerge.seedgrass": "Seedgrass",
       "itemGroup.tabmcmerge": "Mcmerge",
       "item.mcmerge.potatospuds": "Potatospuds",
