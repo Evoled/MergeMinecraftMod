@@ -2,5 +2,16 @@
   "item.mcmerge.emptyseed": "Emptyseed",
   "item.mcmerge.seedgrass": "Seedgrass",
   "itemGroup.tabmcmerge": "Mcmerge",
-  "block.mcmerge.merge_grass_plant": "Merge Grass Block"
+  "item.mcmerge.potatospuds": "Potatospuds",
+  "item.mcmerge.cucumber": "Cucumber",
+  "item.mcmerge.oliveseeds": "Oliveseeds",
+  "item.mcmerge.pepperseeds": "Pepperseeds",
+  "item.mcmerge.cauliflower": "Cauliflower",
+  "item.mcmerge.lettuceseeds": "Lettuceseeds",
+  "block.mcmerge.merge_grass_plant": "Merge Grass Block",
+  "item.mcmerge.cauliflowerseeds": "Cauliflowerseeds",
+  "item.mcmerge.cucumberseeds": "Cucumberseeds",
+  "item.mcmerge.avacodoseeds": "Avacodoseeds",
+  "item.mcmerge.cornseed": "Cornseed",
+  "item.mcmerge.carrotseeds": "Carrotseeds"
 }

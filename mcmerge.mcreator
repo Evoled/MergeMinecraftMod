@@ -175,6 +175,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "potatospuds"
+    },
+    {
+      "name": "Cucumber",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cucumber"
+    },
+    {
+      "name": "Cauliflower",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cauliflower"
     }
   ],
   "variable_elements": [],
@@ -185,8 +201,10 @@
       "item.mcmerge.seedgrass": "Seedgrass",
       "itemGroup.tabmcmerge": "Mcmerge",
       "item.mcmerge.potatospuds": "Potatospuds",
+      "item.mcmerge.cucumber": "Cucumber",
       "item.mcmerge.oliveseeds": "Oliveseeds",
       "item.mcmerge.pepperseeds": "Pepperseeds",
+      "item.mcmerge.cauliflower": "Cauliflower",
       "item.mcmerge.lettuceseeds": "Lettuceseeds",
       "block.mcmerge.merge_grass_plant": "Merge Grass Block",
       "item.mcmerge.cauliflowerseeds": "Cauliflowerseeds",
