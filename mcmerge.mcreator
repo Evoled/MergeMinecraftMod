@@ -118,7 +118,7 @@
       "sortid": 10,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cornseed"
+      "registry_name": "cornseeds"
     },
     {
       "name": "Cauliflowerseeds",
@@ -223,6 +223,126 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "olive"
+    },
+    {
+      "name": "Grape",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grape"
+    },
+    {
+      "name": "Grapeseed",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grapeseed"
+    },
+    {
+      "name": "Sugarcaneseed",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sugarcaneseed"
+    },
+    {
+      "name": "Wheatseed",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wheatseed"
+    },
+    {
+      "name": "Carrotseed",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carrotseed"
+    },
+    {
+      "name": "Beetrootseed",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beetrootseed"
+    },
+    {
+      "name": "Potatoseed",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potatoseed"
+    },
+    {
+      "name": "Pumpkinseed",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pumpkinseed"
+    },
+    {
+      "name": "Lettuceseed",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lettuceseed"
+    },
+    {
+      "name": "Cucumberseed",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cucumberseed"
+    },
+    {
+      "name": "Cornseeds",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cornseeds"
+    },
+    {
+      "name": "Cauliflowerseed",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cauliflowerseed"
+    },
+    {
+      "name": "Avacodoseed",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "avacodoseed"
+    },
+    {
+      "name": "Pepperseed",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pepperseed"
+    },
+    {
+      "name": "Oliveseed",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oliveseed"
     }
   ],
   "variable_elements": [],
@@ -238,12 +358,15 @@
       "item.mcmerge.oliveseeds": "Oliveseeds",
       "item.mcmerge.pepperseeds": "Pepperseeds",
       "item.mcmerge.corn": "Corn",
+      "item.mcmerge.grapeseed": "Grapeseed",
       "item.mcmerge.cauliflower": "Cauliflower",
       "item.mcmerge.lettuceseeds": "Lettuceseeds",
+      "item.mcmerge.sugarcaneseed": "Sugarcane Seed",
       "item.mcmerge.cauliflowerseeds": "Cauliflowerseeds",
       "item.mcmerge.olive": "Olive",
       "item.mcmerge.cucumberseeds": "Cucumberseeds",
       "item.mcmerge.avacodoseeds": "Avacodoseeds",
+      "item.mcmerge.grape": "Grape",
       "item.mcmerge.lettuce": "Lettuce",
       "item.mcmerge.cornseed": "Cornseed",
       "item.mcmerge.pepper": "Pepper",

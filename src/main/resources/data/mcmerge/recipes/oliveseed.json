@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mcmerge:pepperseeds"
+    },
+    {
+      "item": "mcmerge:pepperseeds"
+    }
+  ],
+  "result": {
+    "item": "mcmerge:oliveseeds",
+    "count": 1
+  }
+}
