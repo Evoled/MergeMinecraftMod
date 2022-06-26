@@ -1,0 +1,108 @@
+{
+  "mod_elements": [
+    {
+      "name": "Mcmerge",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcmerge"
+    },
+    {
+      "name": "Emptyseed",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emptyseed"
+    },
+    {
+      "name": "GrassBreak",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grass_break",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Seedgrass",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seedgrass"
+    },
+    {
+      "name": "MergeGrassBlock",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "merge_grass_plant"
+    },
+    {
+      "name": "Grassdrops",
+      "type": "loottable",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grassdrops"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.mcmerge.emptyseed": "Emptyseed",
+      "item.mcmerge.seedgrass": "Seedgrass",
+      "itemGroup.tabmcmerge": "Mcmerge",
+      "block.mcmerge.merge_grass_plant": "Merge Grass Block"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "mcmerge",
+    "modName": "MCmerge",
+    "version": "1.0.0",
+    "author": "Kalie, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "net.mcreator.mcmerge",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}
