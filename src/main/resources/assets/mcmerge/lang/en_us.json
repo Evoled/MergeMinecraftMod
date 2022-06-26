@@ -2,5 +2,6 @@
   "item.mcmerge.emptyseed": "Emptyseed",
   "item.mcmerge.seedgrass": "Seedgrass",
   "itemGroup.tabmcmerge": "Mcmerge",
-  "block.mcmerge.merge_grass_plant": "Merge Grass Block"
+  "block.mcmerge.merge_grass_plant": "Merge Grass Block",
+  "item.mcmerge.carrotseeds": "Carrotseeds"
 }

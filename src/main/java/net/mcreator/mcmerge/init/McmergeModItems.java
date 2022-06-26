@@ -15,6 +15,7 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.mcmerge.item.SeedgrassItem;
 import net.mcreator.mcmerge.item.EmptyseedItem;
+import net.mcreator.mcmerge.item.CarrotseedsItem;
 import net.mcreator.mcmerge.McmergeMod;
 
 public class McmergeModItems {
@@ -22,6 +23,7 @@ public class McmergeModItems {
 	public static final RegistryObject<Item> EMPTYSEED = REGISTRY.register("emptyseed", () -> new EmptyseedItem());
 	public static final RegistryObject<Item> SEEDGRASS = REGISTRY.register("seedgrass", () -> new SeedgrassItem());
 	public static final RegistryObject<Item> MERGE_GRASS_PLANT = block(McmergeModBlocks.MERGE_GRASS_PLANT, McmergeModTabs.TAB_MCMERGE);
+	public static final RegistryObject<Item> CARROTSEEDS = REGISTRY.register("carrotseeds", () -> new CarrotseedsItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

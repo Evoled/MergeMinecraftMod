@@ -71,6 +71,46 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "grassdrops"
+    },
+    {
+      "name": "CarrotseedsRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carrotseeds_rightclicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Carrotseeds",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carrotseeds"
     }
   ],
   "variable_elements": [],
@@ -80,7 +120,8 @@
       "item.mcmerge.emptyseed": "Emptyseed",
       "item.mcmerge.seedgrass": "Seedgrass",
       "itemGroup.tabmcmerge": "Mcmerge",
-      "block.mcmerge.merge_grass_plant": "Merge Grass Block"
+      "block.mcmerge.merge_grass_plant": "Merge Grass Block",
+      "item.mcmerge.carrotseeds": "Carrotseeds"
     }
   },
   "foldersRoot": {
