@@ -28,6 +28,8 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.mcmerge.init.McmergeModTabs;
 import net.mcreator.mcmerge.init.McmergeModItems;
+import net.mcreator.mcmerge.init.McmergeModFeatures;
+import net.mcreator.mcmerge.init.McmergeModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -45,8 +47,10 @@ public class McmergeMod {
 	public McmergeMod() {
 		McmergeModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
+		McmergeModBlocks.REGISTRY.register(bus);
 		McmergeModItems.REGISTRY.register(bus);
+
+		McmergeModFeatures.REGISTRY.register(bus);
 
 	}
 
