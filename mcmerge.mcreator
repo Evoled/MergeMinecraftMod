@@ -123,7 +123,7 @@
       "name": "Cornseed",
       "type": "item",
       "sortid": 10,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "cornseeds",
       "path": "~/Items/seeds"
