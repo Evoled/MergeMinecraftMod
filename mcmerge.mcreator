@@ -575,6 +575,15 @@
         ]
       },
       "path": "~/Procedures"
+    },
+    {
+      "name": "Wrenchrecipie",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wrenchrecipie",
+      "path": "~/Procedures"
     }
   ],
   "variable_elements": [],

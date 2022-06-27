@@ -1,0 +1,16 @@
+{
+  "group": "tools",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:stone_axe"
+    },
+    {
+      "item": "minecraft:stone_axe"
+    }
+  ],
+  "result": {
+    "item": "mcmerge:wrench",
+    "count": 1
+  }
+}
