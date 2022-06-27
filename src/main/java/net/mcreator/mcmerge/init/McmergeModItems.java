@@ -13,15 +13,22 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.mcmerge.item.SugarcaneseedItem;
 import net.mcreator.mcmerge.item.SeedgrassItem;
 import net.mcreator.mcmerge.item.PotatospudsItem;
 import net.mcreator.mcmerge.item.PepperseedsItem;
+import net.mcreator.mcmerge.item.PepperItem;
 import net.mcreator.mcmerge.item.OliveseedsItem;
+import net.mcreator.mcmerge.item.OliveItem;
 import net.mcreator.mcmerge.item.LettuceseedsItem;
+import net.mcreator.mcmerge.item.LettuceItem;
+import net.mcreator.mcmerge.item.GrapeseedItem;
+import net.mcreator.mcmerge.item.GrapeItem;
 import net.mcreator.mcmerge.item.EmptyseedItem;
 import net.mcreator.mcmerge.item.CucumberseedsItem;
 import net.mcreator.mcmerge.item.CucumberItem;
 import net.mcreator.mcmerge.item.CornseedItem;
+import net.mcreator.mcmerge.item.CornItem;
 import net.mcreator.mcmerge.item.CauliflowerseedsItem;
 import net.mcreator.mcmerge.item.CauliflowerItem;
 import net.mcreator.mcmerge.item.CarrotseedsItem;
@@ -44,6 +51,13 @@ public class McmergeModItems {
 	public static final RegistryObject<Item> CUCUMBER = REGISTRY.register("cucumber", () -> new CucumberItem());
 	public static final RegistryObject<Item> CAULIFLOWER = REGISTRY.register("cauliflower", () -> new CauliflowerItem());
 	public static final RegistryObject<Item> MERGEGRASSPLANT = block(McmergeModBlocks.MERGEGRASSPLANT, McmergeModTabs.TAB_MCMERGE);
+	public static final RegistryObject<Item> CORN = REGISTRY.register("corn", () -> new CornItem());
+	public static final RegistryObject<Item> LETTUCE = REGISTRY.register("lettuce", () -> new LettuceItem());
+	public static final RegistryObject<Item> PEPPER = REGISTRY.register("pepper", () -> new PepperItem());
+	public static final RegistryObject<Item> OLIVE = REGISTRY.register("olive", () -> new OliveItem());
+	public static final RegistryObject<Item> GRAPE = REGISTRY.register("grape", () -> new GrapeItem());
+	public static final RegistryObject<Item> GRAPESEED = REGISTRY.register("grapeseed", () -> new GrapeseedItem());
+	public static final RegistryObject<Item> SUGARCANESEED = REGISTRY.register("sugarcaneseed", () -> new SugarcaneseedItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
