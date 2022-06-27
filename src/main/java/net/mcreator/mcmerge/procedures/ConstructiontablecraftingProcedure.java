@@ -37,7 +37,7 @@ public class ConstructiontablecraftingProcedure {
 			return;
 		if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt
 				? ((Slot) _slt.get(0)).getItem()
-				: ItemStack.EMPTY).is(ItemTags.create(new ResourceLocation("minecraft:axe")))) {
+				: ItemStack.EMPTY).is(ItemTags.create(new ResourceLocation("minecraft:stone_axe")))) {
 			if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
 					&& _current.get() instanceof Map _slots) {
 				((Slot) _slots.get(0)).set(ItemStack.EMPTY);
@@ -46,7 +46,7 @@ public class ConstructiontablecraftingProcedure {
 		}
 		if ((entity instanceof ServerPlayer _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt
 				? ((Slot) _slt.get(1)).getItem()
-				: ItemStack.EMPTY).is(ItemTags.create(new ResourceLocation("minecraft:axe")))) {
+				: ItemStack.EMPTY).is(ItemTags.create(new ResourceLocation("minecraft:stone_axe")))) {
 			if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current
 					&& _current.get() instanceof Map _slots) {
 				((Slot) _slots.get(0)).set(ItemStack.EMPTY);

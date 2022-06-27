@@ -74,6 +74,20 @@
           "x": 198,
           "y": 77
         }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "press",
+          "onClick": {
+            "name": "Constructiontablecrafting"
+          },
+          "width": 51,
+          "height": 20,
+          "name": "press",
+          "x": 175,
+          "y": 47
+        }
       }
     ],
     "gridSettings": {
