@@ -70,6 +70,7 @@ public class McmergeModItems {
 	public static final RegistryObject<Item> CHERRYSEEDS = REGISTRY.register("cherryseeds", () -> new CherryseedsItem());
 	public static final RegistryObject<Item> STRAWBERRYSEEDS = REGISTRY.register("strawberryseeds", () -> new StrawberryseedsItem());
 	public static final RegistryObject<Item> WRENCH = REGISTRY.register("wrench", () -> new WrenchItem());
+	public static final RegistryObject<Item> CONSTRUCTIONTABLE = block(McmergeModBlocks.CONSTRUCTIONTABLE, McmergeModTabs.TAB_MCMERGE);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

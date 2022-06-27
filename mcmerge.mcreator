@@ -531,7 +531,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "wrench",
-      "path": "~/Items"
+      "path": "~/Items/tools"
     },
     {
       "name": "Wrenchitem",
@@ -541,6 +541,40 @@
       "locked_code": false,
       "registry_name": "wrenchitem",
       "path": "~/Recipes"
+    },
+    {
+      "name": "ConstruciontableGUI",
+      "type": "gui",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "construciontable_gui"
+    },
+    {
+      "name": "Constructiontable",
+      "type": "block",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "constructiontable",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Constructiontablecrafting",
+      "type": "procedure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "constructiontablecrafting",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
     }
   ],
   "variable_elements": [],
@@ -572,6 +606,7 @@
       "item.mcmerge.cauliflowerseeds": "Cauliflowerseeds",
       "item.mcmerge.cucumberseeds": "Cucumberseeds",
       "item.mcmerge.avacodoseeds": "Avacodoseeds",
+      "block.mcmerge.constructiontable": "Constructiontable",
       "item.mcmerge.avacado": "Avacado",
       "item.mcmerge.lettuce": "Lettuce",
       "item.mcmerge.cornseed": "Cornseed",
@@ -586,6 +621,10 @@
         "children": [
           {
             "name": "seeds",
+            "children": []
+          },
+          {
+            "name": "tools",
             "children": []
           }
         ]
