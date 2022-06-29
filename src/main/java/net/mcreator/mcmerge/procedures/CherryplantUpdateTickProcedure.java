@@ -10,14 +10,15 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.mcmerge.init.McmergeModBlocks;
+
 public class CherryplantUpdateTickProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
 		boolean found = false;
 		double sx = 0;
 		double sy = 0;
 		double sz = 0;
-		if ((world.getBlockState(new BlockPos(x, y - 1, z))).getBlock() == Blocks.GRASS_BLOCK
-				&& (world.getBlockState(new BlockPos(x, y - 1, z))).getBlock() == Blocks.DIRT) {
+		if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == McmergeModBlocks.CHERRYPLANT.get()) {
 			world.setBlock(new BlockPos(x, y, z), Blocks.AIR.defaultBlockState(), 3);
 			if (world instanceof ServerLevel _serverworld) {
 				StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("mcmerge", "treecherry"));
