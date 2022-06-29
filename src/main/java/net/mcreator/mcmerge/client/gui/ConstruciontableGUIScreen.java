@@ -73,7 +73,6 @@ public class ConstruciontableGUIScreen extends AbstractContainerScreen<Construci
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
 		this.font.draw(poseStack, "+", 30, 39, -12829636);
-		this.font.draw(poseStack, "=", 72, 40, -12829636);
 	}
 
 	@Override
@@ -86,7 +85,7 @@ public class ConstruciontableGUIScreen extends AbstractContainerScreen<Construci
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
-		this.addRenderableWidget(new Button(this.leftPos + 49, this.topPos + 10, 51, 20, new TextComponent("press"), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + 47, this.topPos + 33, 51, 20, new TextComponent("MERGE"), e -> {
 			if (true) {
 				McmergeMod.PACKET_HANDLER.sendToServer(new ConstruciontableGUIButtonMessage(0, x, y, z));
 				ConstruciontableGUIButtonMessage.handleButtonAction(entity, 0, x, y, z);

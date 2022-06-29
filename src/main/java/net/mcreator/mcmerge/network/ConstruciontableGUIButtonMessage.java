@@ -64,7 +64,7 @@ public class ConstruciontableGUIButtonMessage {
 			return;
 		if (buttonID == 0) {
 
-			ConstructiontablecraftingProcedure.execute(entity);
+			ConstructiontablecraftingProcedure.execute(world, x, y, z, entity);
 		}
 	}
 
