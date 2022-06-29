@@ -62,7 +62,7 @@ public class McmergeModItems {
 	public static final RegistryObject<Item> CARROTSEEDS = REGISTRY.register("carrotseeds", () -> new CarrotseedsItem());
 	public static final RegistryObject<Item> LETTUCESEEDS = REGISTRY.register("lettuceseeds", () -> new LettuceseedsItem());
 	public static final RegistryObject<Item> CUCUMBERSEEDS = REGISTRY.register("cucumberseeds", () -> new CucumberseedsItem());
-	public static final RegistryObject<Item> CORNSEED = REGISTRY.register("cornseed", () -> new CornseedItem());
+	public static final RegistryObject<Item> CORNSEEDS = REGISTRY.register("cornseeds", () -> new CornseedItem());
 	public static final RegistryObject<Item> CAULIFLOWERSEEDS = REGISTRY.register("cauliflowerseeds", () -> new CauliflowerseedsItem());
 	public static final RegistryObject<Item> AVACODOSEEDS = REGISTRY.register("avacodoseeds", () -> new AvacodoseedsItem());
 	public static final RegistryObject<Item> OLIVESEEDS = REGISTRY.register("oliveseeds", () -> new OliveseedsItem());
