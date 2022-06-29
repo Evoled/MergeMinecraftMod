@@ -2,12 +2,12 @@
   "_fv": 28,
   "_type": "block",
   "definition": {
-    "texture": "ctnull",
-    "textureTop": "ctnull",
-    "textureLeft": "ctnull",
-    "textureFront": "ctnull",
-    "textureRight": "ctnull",
-    "textureBack": "ctnull",
+    "texture": "construction_table_bottom",
+    "textureTop": "construction_table_top",
+    "textureLeft": "construction_table_side",
+    "textureFront": "construction_table_front",
+    "textureRight": "construction_table_side",
+    "textureBack": "construction_table_front",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -17,9 +17,9 @@
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": true,
+    "hasTransparency": false,
     "connectedSides": false,
-    "transparencyType": "CUTOUT",
+    "transparencyType": "SOLID",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -41,7 +41,7 @@
     "creativeTab": {
       "value": "CUSTOM:Mcmerge"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "axe",
     "customDrop": {
       "value": ""
     },

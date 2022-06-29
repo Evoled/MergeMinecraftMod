@@ -30,7 +30,6 @@ public class McmergeModBlocks {
 		@SubscribeEvent
 		public static void clientSetup(FMLClientSetupEvent event) {
 			MergegrassplantBlock.registerRenderLayer();
-			ConstructiontableBlock.registerRenderLayer();
 			CherryplantBlock.registerRenderLayer();
 		}
 	}

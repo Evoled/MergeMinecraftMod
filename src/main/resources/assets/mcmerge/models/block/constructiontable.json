@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "mcmerge:blocks/ctnull",
-    "up": "mcmerge:blocks/ctnull",
-    "north": "mcmerge:blocks/ctnull",
-    "east": "mcmerge:blocks/ctnull",
-    "south": "mcmerge:blocks/ctnull",
-    "west": "mcmerge:blocks/ctnull",
-    "particle": "mcmerge:blocks/ctnull"
+    "down": "mcmerge:blocks/construction_table_bottom",
+    "up": "mcmerge:blocks/construction_table_top",
+    "north": "mcmerge:blocks/construction_table_front",
+    "east": "mcmerge:blocks/construction_table_side",
+    "south": "mcmerge:blocks/construction_table_front",
+    "west": "mcmerge:blocks/construction_table_side",
+    "particle": "mcmerge:blocks/construction_table_bottom"
   }
 }
