@@ -30,6 +30,7 @@ import net.mcreator.mcmerge.init.McmergeModTabs;
 import net.mcreator.mcmerge.init.McmergeModItems;
 import net.mcreator.mcmerge.init.McmergeModFeatures;
 import net.mcreator.mcmerge.init.McmergeModBlocks;
+import net.mcreator.mcmerge.init.McmergeModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -50,6 +51,7 @@ public class McmergeMod {
 		McmergeModBlocks.REGISTRY.register(bus);
 		McmergeModItems.REGISTRY.register(bus);
 
+		McmergeModBlockEntities.REGISTRY.register(bus);
 		McmergeModFeatures.REGISTRY.register(bus);
 
 	}

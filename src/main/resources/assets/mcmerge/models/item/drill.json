@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "mcmerge:items/wrench"
+    "layer0": "mcmerge:items/drill"
   }
 }
