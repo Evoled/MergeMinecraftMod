@@ -10,7 +10,7 @@
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
-    "plantType": "growapable",
+    "plantType": "normal",
     "staticPlantGenerationType": "Flower",
     "suspiciousStewEffect": "SPEED",
     "suspiciousStewDuration": 100,
