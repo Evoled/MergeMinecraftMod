@@ -4,7 +4,7 @@
   "definition": {
     "renderType": 0,
     "texture": "chisel",
-    "customModelName": "Normal",
+    "customModelName": "Tool",
     "name": "Chisel",
     "rarity": "COMMON",
     "creativeTab": {

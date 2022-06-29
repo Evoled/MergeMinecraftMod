@@ -21,9 +21,13 @@ import net.mcreator.mcmerge.item.SeedgrassItem;
 import net.mcreator.mcmerge.item.ScrewdriverItem;
 import net.mcreator.mcmerge.item.SawItem;
 import net.mcreator.mcmerge.item.PotatospudsItem;
+import net.mcreator.mcmerge.item.PlumsaplingItem;
 import net.mcreator.mcmerge.item.PliersItem;
 import net.mcreator.mcmerge.item.PepperseedsItem;
 import net.mcreator.mcmerge.item.PepperItem;
+import net.mcreator.mcmerge.item.PearsaplingItem;
+import net.mcreator.mcmerge.item.PeachsaplingItem;
+import net.mcreator.mcmerge.item.OrangesaplingItem;
 import net.mcreator.mcmerge.item.OliveseedsItem;
 import net.mcreator.mcmerge.item.OliveItem;
 import net.mcreator.mcmerge.item.NailgunItem;
@@ -42,6 +46,7 @@ import net.mcreator.mcmerge.item.CornseedItem;
 import net.mcreator.mcmerge.item.CornItem;
 import net.mcreator.mcmerge.item.ChiselItem;
 import net.mcreator.mcmerge.item.CherryseedsItem;
+import net.mcreator.mcmerge.item.CherrysaplingItem;
 import net.mcreator.mcmerge.item.CherryItem;
 import net.mcreator.mcmerge.item.CauliflowerseedsItem;
 import net.mcreator.mcmerge.item.CauliflowerItem;
@@ -89,6 +94,12 @@ public class McmergeModItems {
 	public static final RegistryObject<Item> CIRCULARSAW = REGISTRY.register("circularsaw", () -> new HandsawItem());
 	public static final RegistryObject<Item> SAW = REGISTRY.register("saw", () -> new SawItem());
 	public static final RegistryObject<Item> SCREWDRIVER = REGISTRY.register("screwdriver", () -> new ScrewdriverItem());
+	public static final RegistryObject<Item> CHERRYSAPLING = REGISTRY.register("cherrysapling", () -> new CherrysaplingItem());
+	public static final RegistryObject<Item> ORANGESAPLING = REGISTRY.register("orangesapling", () -> new OrangesaplingItem());
+	public static final RegistryObject<Item> PLUMSAPLING = REGISTRY.register("plumsapling", () -> new PlumsaplingItem());
+	public static final RegistryObject<Item> PEARSAPLING = REGISTRY.register("pearsapling", () -> new PearsaplingItem());
+	public static final RegistryObject<Item> PEACHSAPLING = REGISTRY.register("peachsapling", () -> new PeachsaplingItem());
+	public static final RegistryObject<Item> CHERRYPLANT = block(McmergeModBlocks.CHERRYPLANT, McmergeModTabs.TAB_MCMERGE);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

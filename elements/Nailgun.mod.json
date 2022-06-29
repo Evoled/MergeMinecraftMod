@@ -4,7 +4,7 @@
   "definition": {
     "renderType": 0,
     "texture": "nailgun",
-    "customModelName": "Normal",
+    "customModelName": "Tool",
     "name": "Nailgun",
     "rarity": "COMMON",
     "creativeTab": {

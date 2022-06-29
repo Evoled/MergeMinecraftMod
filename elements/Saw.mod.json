@@ -4,7 +4,7 @@
   "definition": {
     "renderType": 0,
     "texture": "saw",
-    "customModelName": "Normal",
+    "customModelName": "Tool",
     "name": "Saw",
     "rarity": "COMMON",
     "creativeTab": {

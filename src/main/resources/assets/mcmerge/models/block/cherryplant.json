@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "mcmerge:blocks/cherrysapling",
+    "particle": "mcmerge:blocks/cherrysapling"
+  }
+}

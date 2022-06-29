@@ -681,6 +681,89 @@
       "locked_code": false,
       "registry_name": "screwdriver",
       "path": "~/Items/tools"
+    },
+    {
+      "name": "Cherrysapling",
+      "type": "item",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherrysapling",
+      "path": "~/Items/saplings"
+    },
+    {
+      "name": "Orangesapling",
+      "type": "item",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orangesapling",
+      "path": "~/Items/saplings"
+    },
+    {
+      "name": "Plumsapling",
+      "type": "item",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plumsapling",
+      "path": "~/Items/saplings"
+    },
+    {
+      "name": "Pearsapling",
+      "type": "item",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pearsapling",
+      "path": "~/Items/saplings"
+    },
+    {
+      "name": "Peachsapling",
+      "type": "item",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peachsapling",
+      "path": "~/Items/saplings"
+    },
+    {
+      "name": "CherryplantUpdateTick",
+      "type": "procedure",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherryplant_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Cherryplant",
+      "type": "plant",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherryplant",
+      "path": "~/Blocks/saplings"
     }
   ],
   "variable_elements": [],
@@ -695,6 +778,8 @@
       "item.mcmerge.pepperseeds": "Pepperseeds",
       "item.mcmerge.corn": "Corn",
       "item.mcmerge.grapeseed": "Grapeseed",
+      "item.mcmerge.pearsapling": "Pear Sapling",
+      "item.mcmerge.peachsapling": "Peach Sapling",
       "item.mcmerge.strawberryseeds": "Strawberryseeds",
       "item.mcmerge.lettuceseeds": "Lettuceseeds",
       "item.mcmerge.cornseeds": "Cornseed",
@@ -711,12 +796,16 @@
       "item.mcmerge.potatospuds": "Potatospuds",
       "item.mcmerge.cucumber": "Cucumber",
       "item.mcmerge.saw": "Saw",
+      "item.mcmerge.plumsapling": "Plum Sapling",
+      "item.mcmerge.orangesapling": "Orange Sapling",
       "item.mcmerge.circularsaw": "Circular Saw",
       "item.mcmerge.oliveseeds": "Oliveseeds",
       "item.mcmerge.cherry": "Cherry",
+      "item.mcmerge.cherrysapling": "Cherry Sapling",
       "item.mcmerge.cauliflower": "Cauliflower",
       "item.mcmerge.chisel": "Chisel",
       "item.mcmerge.mallet": "Mallet",
+      "block.mcmerge.cherryplant": "Cherry Sapling",
       "item.mcmerge.cauliflowerseeds": "Cauliflowerseeds",
       "item.mcmerge.cucumberseeds": "Cucumberseeds",
       "item.mcmerge.avacodoseeds": "Avacodoseeds",
@@ -754,7 +843,12 @@
       },
       {
         "name": "Blocks",
-        "children": []
+        "children": [
+          {
+            "name": "saplings",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Recipes",

@@ -3,14 +3,14 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "mallet",
-    "customModelName": "Tool",
-    "name": "Mallet",
+    "texture": "plumsapling",
+    "customModelName": "Normal",
+    "name": "Plum Sapling",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:Mcmerge"
     },
-    "stackSize": 1,
+    "stackSize": 64,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,
