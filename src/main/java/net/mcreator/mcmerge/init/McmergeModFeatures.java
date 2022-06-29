@@ -18,6 +18,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.Holder;
 
 import net.mcreator.mcmerge.world.features.plants.MergegrassplantFeature;
+import net.mcreator.mcmerge.world.features.plants.CherryplantFeature;
 import net.mcreator.mcmerge.McmergeMod;
 
 import java.util.function.Supplier;
@@ -32,6 +33,8 @@ public class McmergeModFeatures {
 	public static final RegistryObject<Feature<?>> MERGEGRASSPLANT = register("mergegrassplant", MergegrassplantFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION, MergegrassplantFeature.GENERATE_BIOMES,
 					MergegrassplantFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> CHERRYPLANT = register("cherryplant", CherryplantFeature::feature, new FeatureRegistration(
+			GenerationStep.Decoration.VEGETAL_DECORATION, CherryplantFeature.GENERATE_BIOMES, CherryplantFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);
